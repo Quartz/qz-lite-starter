@@ -5,9 +5,9 @@ const LATEST_QUERY = gql`
 	query {
 		posts {
 			nodes {
-				title
-				excerpt
+				postId
 				link
+				title
 			}
 		}
 	}
