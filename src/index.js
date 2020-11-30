@@ -8,8 +8,8 @@ import {
 import App from './components/App';
 
 const client = new ApolloClient( {
-  uri: 'https://cms.qz.com/graphql',
-  cache: new InMemoryCache()
+	uri: 'https://cms.qz.com/graphql',
+	cache: new InMemoryCache(),
 } );
 
 function AppWithApollo() {
@@ -20,4 +20,4 @@ function AppWithApollo() {
 	);
 }
 
-ReactDOM.render( <AppWithApollo />, document.getElementById('root') );
+ReactDOM.render( <AppWithApollo />, document.getElementById( 'root' ) );
