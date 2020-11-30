@@ -1,6 +1,6 @@
 # Quartz Lite starter pack
 
-Boilerplate for creating your very own text-only Quartz reader.
+Boilerplate for creating your very own text-only Quartz reader. Fetches the latest articles from Quartz’s [GraphQL endpoint](http://query.quartz.work/).
 
 ## Running locally
 
